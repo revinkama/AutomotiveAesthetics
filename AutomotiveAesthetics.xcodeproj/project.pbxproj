@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF3EDEA33634E5C456CC0584 /* Pods_AutomotiveAesthetics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3188882B4C68DB08EA0D3DC /* Pods_AutomotiveAesthetics.framework */; };
+		CD0328802231A01700F18677 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD03287F2231A01700F18677 /* RegisterViewController.swift */; };
+		CD0328822234DEFB00F18677 /* AppointmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0328812234DEFB00F18677 /* AppointmentViewController.swift */; };
+		CD0328842235648D00F18677 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD0328832235648D00F18677 /* Main.storyboard */; };
+		CD03288622356EF800F18677 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD03288522356EF800F18677 /* PageViewController.swift */; };
+		CD03288E2237394F00F18677 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD03288D2237394F00F18677 /* CollectionViewCell.swift */; };
+		CD0328902238294400F18677 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD03288F2238294400F18677 /* HomePageViewController.swift */; };
+		CD3571FE223BEE4100596055 /* ProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3571FD223BEE4100596055 /* ProfileTableViewCell.swift */; };
+		CD68B8752239B36A001DB1AA /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD68B8742239B36A001DB1AA /* CalendarCell.swift */; };
+		CD9859B822395CD300575412 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD9859B722395CD300575412 /* ProfileViewController.swift */; };
+		CDBAD36822305C8D00ADD30C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CDBAD36722305C8D00ADD30C /* GoogleService-Info.plist */; };
+		CDBAD36E2230F9D400ADD30C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDBAD36D2230F9D400ADD30C /* Assets.xcassets */; };
+		CDDD95902230545A00054B32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDD958F2230545A00054B32 /* AppDelegate.swift */; };
+		CDDD95922230545A00054B32 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDD95912230545A00054B32 /* ViewController.swift */; };
+		CDDD959A2230545C00054B32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDDD95982230545C00054B32 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2765EE742FF9FF969FAE2AB7 /* Pods-AutomotiveAesthetics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutomotiveAesthetics.debug.xcconfig"; path = "Target Support Files/Pods-AutomotiveAesthetics/Pods-AutomotiveAesthetics.debug.xcconfig"; sourceTree = "<group>"; };
+		B3188882B4C68DB08EA0D3DC /* Pods_AutomotiveAesthetics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutomotiveAesthetics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD03287F2231A01700F18677 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		CD0328812234DEFB00F18677 /* AppointmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentViewController.swift; sourceTree = "<group>"; };
+		CD0328832235648D00F18677 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CD03288522356EF800F18677 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		CD03288D2237394F00F18677 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		CD03288F2238294400F18677 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		CD3571FD223BEE4100596055 /* ProfileTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewCell.swift; sourceTree = "<group>"; };
+		CD68B8742239B36A001DB1AA /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		CD9859B722395CD300575412 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CDBAD36722305C8D00ADD30C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CDBAD36D2230F9D400ADD30C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDDD958C2230545A00054B32 /* AutomotiveAesthetics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutomotiveAesthetics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDDD958F2230545A00054B32 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDDD95912230545A00054B32 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDDD95992230545C00054B32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDDD959B2230545C00054B32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6CE39CA5F1449703C21AD3A /* Pods-AutomotiveAesthetics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutomotiveAesthetics.release.xcconfig"; path = "Target Support Files/Pods-AutomotiveAesthetics/Pods-AutomotiveAesthetics.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDDD95892230545A00054B32 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3EDEA33634E5C456CC0584 /* Pods_AutomotiveAesthetics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		240598FC682EB0A41A6CFC10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2765EE742FF9FF969FAE2AB7 /* Pods-AutomotiveAesthetics.debug.xcconfig */,
+				F6CE39CA5F1449703C21AD3A /* Pods-AutomotiveAesthetics.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4C3C64E7A5BBB206071B5E99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3188882B4C68DB08EA0D3DC /* Pods_AutomotiveAesthetics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDDD95832230545A00054B32 = {
+			isa = PBXGroup;
+			children = (
+				CDDD958E2230545A00054B32 /* AutomotiveAesthetics */,
+				CDDD958D2230545A00054B32 /* Products */,
+				240598FC682EB0A41A6CFC10 /* Pods */,
+				4C3C64E7A5BBB206071B5E99 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CDDD958D2230545A00054B32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDDD958C2230545A00054B32 /* AutomotiveAesthetics.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDDD958E2230545A00054B32 /* AutomotiveAesthetics */ = {
+			isa = PBXGroup;
+			children = (
+				CDBAD36D2230F9D400ADD30C /* Assets.xcassets */,
+				CDDD959B2230545C00054B32 /* Info.plist */,
+				CDBAD36722305C8D00ADD30C /* GoogleService-Info.plist */,
+				CDDD95982230545C00054B32 /* LaunchScreen.storyboard */,
+				CD68B8742239B36A001DB1AA /* CalendarCell.swift */,
+				CD0328832235648D00F18677 /* Main.storyboard */,
+				CDDD958F2230545A00054B32 /* AppDelegate.swift */,
+				CDDD95912230545A00054B32 /* ViewController.swift */,
+				CD03287F2231A01700F18677 /* RegisterViewController.swift */,
+				CD03288F2238294400F18677 /* HomePageViewController.swift */,
+				CD03288D2237394F00F18677 /* CollectionViewCell.swift */,
+				CD0328812234DEFB00F18677 /* AppointmentViewController.swift */,
+				CD9859B722395CD300575412 /* ProfileViewController.swift */,
+				CD3571FD223BEE4100596055 /* ProfileTableViewCell.swift */,
+				CD03288522356EF800F18677 /* PageViewController.swift */,
+			);
+			path = AutomotiveAesthetics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDDD958B2230545A00054B32 /* AutomotiveAesthetics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDDD959E2230545C00054B32 /* Build configuration list for PBXNativeTarget "AutomotiveAesthetics" */;
+			buildPhases = (
+				417C6D0CD2B22EF32EBC36D4 /* [CP] Check Pods Manifest.lock */,
+				CDDD95882230545A00054B32 /* Sources */,
+				CDDD95892230545A00054B32 /* Frameworks */,
+				CDDD958A2230545A00054B32 /* Resources */,
+				424BD9A291733A561E8ADC2B /* [CP] Embed Pods Frameworks */,
+				71824E44F8A520FE8DD69B2F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutomotiveAesthetics;
+			productName = AutomotiveAesthetics;
+			productReference = CDDD958C2230545A00054B32 /* AutomotiveAesthetics.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDDD95842230545A00054B32 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Kevin Rama";
+				TargetAttributes = {
+					CDDD958B2230545A00054B32 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = CDDD95872230545A00054B32 /* Build configuration list for PBXProject "AutomotiveAesthetics" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDDD95832230545A00054B32;
+			productRefGroup = CDDD958D2230545A00054B32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDDD958B2230545A00054B32 /* AutomotiveAesthetics */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDDD958A2230545A00054B32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDDD959A2230545C00054B32 /* LaunchScreen.storyboard in Resources */,
+				CDBAD36822305C8D00ADD30C /* GoogleService-Info.plist in Resources */,
+				CDBAD36E2230F9D400ADD30C /* Assets.xcassets in Resources */,
+				CD0328842235648D00F18677 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		417C6D0CD2B22EF32EBC36D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AutomotiveAesthetics-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		424BD9A291733A561E8ADC2B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AutomotiveAesthetics/Pods-AutomotiveAesthetics-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AutomotiveAesthetics/Pods-AutomotiveAesthetics-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71824E44F8A520FE8DD69B2F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AutomotiveAesthetics/Pods-AutomotiveAesthetics-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AutomotiveAesthetics/Pods-AutomotiveAesthetics-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDDD95882230545A00054B32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD0328822234DEFB00F18677 /* AppointmentViewController.swift in Sources */,
+				CD9859B822395CD300575412 /* ProfileViewController.swift in Sources */,
+				CD0328802231A01700F18677 /* RegisterViewController.swift in Sources */,
+				CD3571FE223BEE4100596055 /* ProfileTableViewCell.swift in Sources */,
+				CDDD95922230545A00054B32 /* ViewController.swift in Sources */,
+				CD03288E2237394F00F18677 /* CollectionViewCell.swift in Sources */,
+				CD0328902238294400F18677 /* HomePageViewController.swift in Sources */,
+				CD03288622356EF800F18677 /* PageViewController.swift in Sources */,
+				CDDD95902230545A00054B32 /* AppDelegate.swift in Sources */,
+				CD68B8752239B36A001DB1AA /* CalendarCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CDDD95982230545C00054B32 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDDD95992230545C00054B32 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDDD959C2230545C00054B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDDD959D2230545C00054B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDDD959F2230545C00054B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2765EE742FF9FF969FAE2AB7 /* Pods-AutomotiveAesthetics.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MQ79U7S5FQ;
+				INFOPLIST_FILE = AutomotiveAesthetics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KevinRama.AutomotiveAesthetics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDDD95A02230545C00054B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6CE39CA5F1449703C21AD3A /* Pods-AutomotiveAesthetics.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MQ79U7S5FQ;
+				INFOPLIST_FILE = AutomotiveAesthetics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.KevinRama.AutomotiveAesthetics;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDDD95872230545A00054B32 /* Build configuration list for PBXProject "AutomotiveAesthetics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDDD959C2230545C00054B32 /* Debug */,
+				CDDD959D2230545C00054B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDDD959E2230545C00054B32 /* Build configuration list for PBXNativeTarget "AutomotiveAesthetics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDDD959F2230545C00054B32 /* Debug */,
+				CDDD95A02230545C00054B32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDDD95842230545A00054B32 /* Project object */;
+}
